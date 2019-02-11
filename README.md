@@ -22,16 +22,8 @@ Voici les commandes disponibles :
 
 ## Fonctionnement:
 
-Ce script est simple d'utilisation.Dans un terminal/CMD ou la console python et rendez vous dans le dossier ou ce trouve `Site_Statique.py`.
+Ce script est simple d'utilisation.Dans un terminal/CMD ou la console python et rendez vous dans le dossier ou ce trouve `mdConverter.py`.
 
 Voici la commande a écrire :
 
-    sitestatique.py -i Chemin_du_dossier_input -o Chemin_du_dossier_output
-Ou
-
-    sitestatique.py -input-directory Chemin_du_dossier_input -output-directory Chemin_du_dossier_output
-Et pour avoir des beau arc-en-ciel il suffit de rajouter `-r` a la fin.
-
-Comme ceci : 
-
-    sitestatique.py -i Chemin_du_dossier_input -o Chemin_du_dossier_output -r
+    mdConverter.py -i Chemin_du_dossier_input -o Chemin_du_dossier_output
