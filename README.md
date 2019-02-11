@@ -1,6 +1,6 @@
 # Projet générateur de site statique
 
-## Installation avec pip
+## Installation avec pip:
 
 Le package étant disponible sur la plateforme pypi.org il est donc possible d'installer ce script avec pip :
 
@@ -8,11 +8,11 @@ Le package étant disponible sur la plateforme pypi.org il est donc possible d'i
 
 Lien vers le package : https://pypi.org/project/Markdown2Html-French/
 
-## Présentation du projet.
+## Présentation du projet:
 
 La finalité de ce projet était de développer un outil permettant la conversion de fichiers markdown en fichiers HTML.
 
-## La liste des commandes.
+## Liste des commandes:
 
 Voici les commandes disponibles :
 
@@ -20,11 +20,9 @@ Voici les commandes disponibles :
 
 `-h` ou `--help`  affiche les aide pour les commandes.
 
-## Comment ça marche ?
+## Fonctionnement:
 
-Ce script est simple d'utilisation.
-
-Dans un terminal/CMD ou la console python et rendez vous dans le dossier ou ce trouve `sitestatique.py`.
+Ce script est simple d'utilisation.Dans un terminal/CMD ou la console python et rendez vous dans le dossier ou ce trouve `Site_Statique.py`.
 
 Voici la commande a écrire :
 
