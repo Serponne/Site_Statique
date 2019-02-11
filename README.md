@@ -1,37 +1,56 @@
-## Welcome to GitHub Pages
+# Projet générateur de site statique
 
-You can use the [editor on GitHub](https://github.com/Serponne/Site_Statique/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Installation avec pip
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Le package étant disponible sur la plateforme pypi.org il est donc possible d'installer ce script avec pip :
 
-### Markdown
+    pip install Markdown2Html-French
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Lien vers le package : https://pypi.org/project/Markdown2Html-French/
 
-```markdown
-Syntax highlighted code block
+## Présentation du projet.
 
-# Header 1
-## Header 2
-### Header 3
+La finalité de ce projet était de développer un outil permettant la conversion de fichiers markdown en fichiers HTML.
 
-- Bulleted
-- List
+## La liste des commandes.
 
-1. Numbered
-2. List
+Voici les commandes disponibles :
 
-**Bold** and _Italic_ and `Code` text
+`-i` ou `--input-directory` accompagné du chemin vers le dossier où se trouvent les fichiers .md à convertir.
 
-[Link](url) and ![Image](src)
-```
+`-o` ou `--output-directory`  accompagné tu chemin vers le dossier où vous avez choisie de mettre les fichiers converties en .html
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+`-h` ou `--help`  affiche les aide pour les commandes.
 
-### Jekyll Themes
+`-r` ou `--rainbow` transforme tout les texte en arc-en-ciel (Référence au "Double Rainbow" https://www.youtube.com/watch?v=MX0D4oZwCsA)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Serponne/Site_Statique/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+![COMMENT C BO](https://i.makeagif.com/media/11-26-2015/ATqgx3.gif)
+## Comment ça marche ?
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Ce script est simple d'utilisation.
+
+Dans un terminal/CMD ou la console python et rendez vous dans le dossier ou ce trouve `sitestatique.py`.
+
+Voici la commande a écrire :
+
+    sitestatique.py -i Chemin_du_dossier_input -o Chemin_du_dossier_output
+Ou
+
+    sitestatique.py -input-directory Chemin_du_dossier_input -output-directory Chemin_du_dossier_output
+Et pour avoir des beau arc-en-ciel il suffit de rajouter `-r` a la fin.
+
+Comme ceci : 
+
+    sitestatique.py -i Chemin_du_dossier_input -o Chemin_du_dossier_output -r
+
+### Maintenant vous pouvez faire semblant d'être un H4k3r en modifiant des # en balise HTML
+
+![enter image description here](https://i.imgur.com/ye5udHZ.gif)
+
+(Parce que tout le monde le sait c'est ça être un vrai H4x0R)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNzIwODEzNzA2LC02MTA5NzIzODAsMTcxMT
+Q2NjYzNywtMTM4NTQxMTg5OSwxNDc3MDQ1MjM3LDE5NjQyMzA3
+NV19
+-->
