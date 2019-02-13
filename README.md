@@ -18,4 +18,5 @@ Ce script est simple d'utilisation.Dans un terminal/CMD ou la console python et 
 
 Voici la commande a écrire :
 
-    mdConverter.py -i Chemin_du_dossier_input -o Chemin_du_dossier_output
+    mdConverter.py -i Chemin_du_dossier_input
+    
