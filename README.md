@@ -1,13 +1,5 @@
 # Projet générateur de site statique
 
-## Installation avec pip:
-
-Le package étant disponible sur la plateforme pypi.org il est donc possible d'installer ce script avec pip :
-
-    pip install Markdown2Html-French
-
-Lien vers le package : https://pypi.org/project/Markdown2Html-French/
-
 ## Présentation du projet:
 
 La finalité de ce projet était de développer un outil permettant la conversion de fichiers markdown en fichiers HTML.
